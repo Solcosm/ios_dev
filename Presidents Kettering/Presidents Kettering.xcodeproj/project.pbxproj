@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D4C3EF202B4C370067138A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4C3EE202B4C370067138A /* AppDelegate.swift */; };
+		46D4C3F1202B4C370067138A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4C3F0202B4C370067138A /* MasterViewController.swift */; };
+		46D4C3F3202B4C370067138A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4C3F2202B4C370067138A /* DetailViewController.swift */; };
+		46D4C3F6202B4C370067138A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D4C3F4202B4C370067138A /* Main.storyboard */; };
+		46D4C3F8202B4C370067138A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D4C3F7202B4C370067138A /* Assets.xcassets */; };
+		46D4C3FB202B4C370067138A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D4C3F9202B4C370067138A /* LaunchScreen.storyboard */; };
+		46D4C403202B4C470067138A /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D4C402202B4C470067138A /* PresidentList.plist */; };
+		46D4C405202B57060067138A /* LanguageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4C404202B57060067138A /* LanguageListController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46D4C3EB202B4C370067138A /* Presidents Kettering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presidents Kettering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D4C3EE202B4C370067138A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D4C3F0202B4C370067138A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		46D4C3F2202B4C370067138A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		46D4C3F5202B4C370067138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D4C3F7202B4C370067138A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D4C3FA202B4C370067138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D4C3FC202B4C370067138A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D4C402202B4C470067138A /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
+		46D4C404202B57060067138A /* LanguageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D4C3E8202B4C370067138A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D4C3E2202B4C370067138A = {
+			isa = PBXGroup;
+			children = (
+				46D4C3ED202B4C370067138A /* Presidents Kettering */,
+				46D4C3EC202B4C370067138A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D4C3EC202B4C370067138A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D4C3EB202B4C370067138A /* Presidents Kettering.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D4C3ED202B4C370067138A /* Presidents Kettering */ = {
+			isa = PBXGroup;
+			children = (
+				46D4C3EE202B4C370067138A /* AppDelegate.swift */,
+				46D4C3F0202B4C370067138A /* MasterViewController.swift */,
+				46D4C3F2202B4C370067138A /* DetailViewController.swift */,
+				46D4C404202B57060067138A /* LanguageListController.swift */,
+				46D4C3F4202B4C370067138A /* Main.storyboard */,
+				46D4C3F7202B4C370067138A /* Assets.xcassets */,
+				46D4C3F9202B4C370067138A /* LaunchScreen.storyboard */,
+				46D4C402202B4C470067138A /* PresidentList.plist */,
+				46D4C3FC202B4C370067138A /* Info.plist */,
+			);
+			path = "Presidents Kettering";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D4C3EA202B4C370067138A /* Presidents Kettering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D4C3FF202B4C370067138A /* Build configuration list for PBXNativeTarget "Presidents Kettering" */;
+			buildPhases = (
+				46D4C3E7202B4C370067138A /* Sources */,
+				46D4C3E8202B4C370067138A /* Frameworks */,
+				46D4C3E9202B4C370067138A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Presidents Kettering";
+			productName = "Presidents Kettering";
+			productReference = 46D4C3EB202B4C370067138A /* Presidents Kettering.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D4C3E3202B4C370067138A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Me;
+				TargetAttributes = {
+					46D4C3EA202B4C370067138A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46D4C3E6202B4C370067138A /* Build configuration list for PBXProject "Presidents Kettering" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D4C3E2202B4C370067138A;
+			productRefGroup = 46D4C3EC202B4C370067138A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D4C3EA202B4C370067138A /* Presidents Kettering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D4C3E9202B4C370067138A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D4C3FB202B4C370067138A /* LaunchScreen.storyboard in Resources */,
+				46D4C3F8202B4C370067138A /* Assets.xcassets in Resources */,
+				46D4C3F6202B4C370067138A /* Main.storyboard in Resources */,
+				46D4C403202B4C470067138A /* PresidentList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D4C3E7202B4C370067138A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D4C3F3202B4C370067138A /* DetailViewController.swift in Sources */,
+				46D4C3F1202B4C370067138A /* MasterViewController.swift in Sources */,
+				46D4C3EF202B4C370067138A /* AppDelegate.swift in Sources */,
+				46D4C405202B57060067138A /* LanguageListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46D4C3F4202B4C370067138A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D4C3F5202B4C370067138A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46D4C3F9202B4C370067138A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D4C3FA202B4C370067138A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D4C3FD202B4C370067138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D4C3FE202B4C370067138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D4C400202B4C370067138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX7SQWQKNR;
+				INFOPLIST_FILE = "Presidents Kettering/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeSoftware.Presidents-Kettering";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D4C401202B4C370067138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX7SQWQKNR;
+				INFOPLIST_FILE = "Presidents Kettering/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeSoftware.Presidents-Kettering";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D4C3E6202B4C370067138A /* Build configuration list for PBXProject "Presidents Kettering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D4C3FD202B4C370067138A /* Debug */,
+				46D4C3FE202B4C370067138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D4C3FF202B4C370067138A /* Build configuration list for PBXNativeTarget "Presidents Kettering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D4C400202B4C370067138A /* Debug */,
+				46D4C401202B4C370067138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D4C3E3202B4C370067138A /* Project object */;
+}
